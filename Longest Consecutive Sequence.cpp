@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -12,8 +11,9 @@ public:
                     ++length;
                 longest = max(longest, length);
             } 
-
         }
         return longest;
     }
 };
+
+
