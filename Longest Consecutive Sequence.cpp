@@ -1,4 +1,5 @@
 class Solution {
+    
 public:
     int longestConsecutive(vector<int>& nums) {
         unordered_set<int>s(nums.begin(), nums.end());
@@ -12,6 +13,7 @@ public:
                 longest = max(longest, length);
             } 
         }
+        
         return longest;
     }
 };
