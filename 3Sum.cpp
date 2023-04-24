@@ -6,7 +6,6 @@ public:
         if (n < 3) {
             return result;
         }
-        
         sort(nums.begin(), nums.end());
         
         for (int i = 0; i < n - 2; i++) {
