@@ -15,7 +15,6 @@ public:
             if (i > 0 && nums[i - 1] == nums[i]) {
                 continue;
             }
-            
             int j = i + 1;
             int k = n - 1;
             
