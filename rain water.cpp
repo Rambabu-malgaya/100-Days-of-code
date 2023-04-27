@@ -21,7 +21,6 @@ public:
                 result += maxRight - height[j];
             }
         }
-        
         return result;
     }
 };
