@@ -19,7 +19,6 @@ public:
                 if (open.top() != parens[c]) {
                     return false;
                 }
-
                 open.pop();
             } else {
                 open.push(c);
