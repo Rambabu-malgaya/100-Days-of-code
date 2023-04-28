@@ -12,7 +12,6 @@ public:
             minStk.top().second++;
         }
     }
-    
     void pop() {
         if (stk.top() == minStk.top().first) {
             minStk.top().second--;
