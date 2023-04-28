@@ -36,4 +36,3 @@ private:
     stack<int> stk;
     stack<pair<int, int>> minStk;
 };
-
