@@ -1,5 +1,4 @@
 
-
 class MinStack {
 public:
     MinStack() {
