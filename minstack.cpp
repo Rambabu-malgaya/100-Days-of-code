@@ -3,8 +3,7 @@ public:
     MinStack() {
         
     }
-    
-    void push(int val) {
+      void push(int val) {
         stk.push(val);
         
         if (minStk.empty() || val < minStk.top().first) {
