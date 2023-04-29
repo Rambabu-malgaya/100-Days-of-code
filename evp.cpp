@@ -5,7 +5,7 @@ public:
         
         for (int i = 0; i < tokens.size(); i++) {
             string token = tokens[i];
-            
+           
             if (token.size() > 1 || isdigit(token[0])) {
                 stk.push(stoi(token));
                 continue;
