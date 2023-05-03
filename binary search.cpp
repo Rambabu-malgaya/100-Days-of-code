@@ -9,7 +9,6 @@ public:
             else
                 l = mid + 1;
         }
-
         if(nums[l] != target) return -1;
         return l;
     }
