@@ -12,5 +12,4 @@ public:
         if(nums[l] != target) return -1;
         return l;
     }
-    
 };
