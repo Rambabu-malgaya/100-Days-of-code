@@ -24,7 +24,6 @@ public:
                 low = k + 1;
             }
         }
-        
         return result;
     }
 };
