@@ -8,7 +8,7 @@ public:
         for (int i = 0; i < n; i++) {
             high = max(high, piles[i]);
         }
-        
+ 
         int result = high;
         
         while (low <= high) {
