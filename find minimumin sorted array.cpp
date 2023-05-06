@@ -3,7 +3,6 @@ class Solution
 public:
     int findMin(vector<int> &nums)
     {
-
         int res = nums[0];
         int l = 0;
         int r = nums.size() - 1;
