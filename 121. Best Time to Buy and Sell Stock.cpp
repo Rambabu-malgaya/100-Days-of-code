@@ -10,7 +10,6 @@ public:
                 maxP = max(maxP, prices[i] - minP);
             }
         }
-
         return maxP;
     }
 };
